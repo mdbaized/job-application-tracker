@@ -5,6 +5,21 @@ Home
 {% endblock %}
 
 {% block content %}
+<div class="bg-primary text-white rounded-4 p-5 text-center shadow">
+
+  <h1>Job Application Tracker</h1>
+
+  <p>Track every application and never miss an opportunity.</p>
+
+  <a href="{% url 'job_create' %}" class="btn btn-light btn-lg">
+
+    <i class="bi bi-plus-circle"></i>
+
+    Add Application
+
+  </a>
+
+</div>
 <div class="text-center mb-5">
 
   <h1 class="fw-bold">

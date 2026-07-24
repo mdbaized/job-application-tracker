@@ -20,7 +20,7 @@ body {
 }
 
 footer {
-  margin-top: 80px;
+  width: 100%;
 }
 
 .btn {
@@ -66,4 +66,21 @@ body {
 .table {
   border-radius: 10px;
   overflow: hidden;
+}
+.navbar {
+  background: linear-gradient(90deg, #2563eb, #4f46e5);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #ffd43b !important;
 }
