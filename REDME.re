@@ -1,34 +1,34 @@
-# 💼 Job Application Tracker
+#  Job Application Tracker
 
 A Django-based web application to manage and track job applications efficiently. Users can add, update, view, and delete job applications while monitoring their application status through a simple dashboard.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Job Application Tracker helps job seekers organize all their job applications in one place. It provides CRUD functionality, a dashboard with application statistics, and a clean Bootstrap-based user interface.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🏠 Home Dashboard
-- ➕ Add New Job Application
-- 📋 View All Applications
-- ✏️ Update Existing Application
-- 🗑️ Delete Application (Confirmation Page)
-- 👁️ View Application Details
-- 📊 Dashboard Statistics
-- ✅ Form Validation
-- 💬 Success Messages
-- 🎨 Bootstrap 5 Responsive Design
-- 🔒 Django ModelForm Validation
-- 📝 Custom Request Logger Middleware
-- ⚙️ Django Admin Panel
+-  Home Dashboard
+-  Add New Job Application
+-  View All Applications
+-  Update Existing Application
+- Delete Application (Confirmation Page)
+-  View Application Details
+-  Dashboard Statistics
+-  Form Validation
+-  Success Messages
+-  Bootstrap 5 Responsive Design
+-  Django ModelForm Validation
+-  Custom Request Logger Middleware
+-  Django Admin Panel
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python 3
 - Django 6
@@ -39,7 +39,7 @@ Job Application Tracker helps job seekers organize all their job applications in
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 job_tracker/
@@ -82,7 +82,7 @@ job_tracker/
 
 ---
 
-## 📊 Dashboard
+##  Dashboard
 
 The home page displays:
 
@@ -95,7 +95,7 @@ The home page displays:
 
 ---
 
-## 📝 Job Application Fields
+##  Job Application Fields
 
 | Field | Type |
 |-------|------|
@@ -112,7 +112,7 @@ The home page displays:
 
 ---
 
-## ✔ Validation Rules
+##  Validation Rules
 
 - Company Name is required
 - Position is required
@@ -122,7 +122,7 @@ The home page displays:
 
 ---
 
-## 🔗 URL Routes
+##  URL Routes
 
 | URL | Description |
 |------|-------------|
@@ -135,7 +135,7 @@ The home page displays:
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### Clone the repository
 
@@ -202,7 +202,7 @@ http://127.0.0.1:8000/
 
 ---
 
-## 🔐 Admin Panel
+##  Admin Panel
 
 ```
 http://127.0.0.1:8000/admin/
@@ -212,7 +212,7 @@ Login using the superuser credentials.
 
 ---
 
-## 📝 Custom Middleware
+##  Custom Middleware
 
 The project includes a custom middleware named **RequestLoggerMiddleware**.
 
@@ -234,7 +234,7 @@ Path : /jobs/
 
 ---
 
-## 🎯 Future Improvements
+##  Future Improvements
 
 - User Authentication
 - Search Applications
@@ -246,9 +246,9 @@ Path : /jobs/
 
 ---
 
-## 👨‍💻 Developed By
+##  Developed By
 
-**Md. Baized**
+**Md Baized sheikh**
 
 Diploma in Computer Science & Technology
 
@@ -256,6 +256,6 @@ Faridpur Polytechnic Institute
 
 ---
 
-## 📄 License
+##  License
 
 This project is developed for educational purposes.
