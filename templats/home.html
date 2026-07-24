@@ -1,0 +1,172 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+<div class="text-center mb-5">
+
+  <h1 class="fw-bold">
+    Job Application Tracker
+  </h1>
+
+  <p class="text-muted">
+    Manage all your job applications in one place.
+  </p>
+
+</div>
+
+
+<div class="row">
+
+  <!-- Total -->
+
+  <div class="col-md-4 mb-4">
+
+    <div class="card shadow border-0">
+
+      <div class="card-body text-center">
+
+        <h5>Total Applications</h5>
+
+        <h2 class="text-primary">
+
+          {{ total }}
+
+        </h2>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Applied -->
+
+  <div class="col-md-4 mb-4">
+
+    <div class="card shadow border-0">
+
+      <div class="card-body text-center">
+
+        <h5>Applied</h5>
+
+        <h2 class="text-secondary">
+
+          {{ applied }}
+
+        </h2>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Interview -->
+
+  <div class="col-md-4 mb-4">
+
+    <div class="card shadow border-0">
+
+      <div class="card-body text-center">
+
+        <h5>Interview</h5>
+
+        <h2 class="text-warning">
+
+          {{ interview }}
+
+        </h2>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Offer -->
+
+  <div class="col-md-4 mb-4">
+
+    <div class="card shadow border-0">
+
+      <div class="card-body text-center">
+
+        <h5>Offer</h5>
+
+        <h2 class="text-info">
+
+          {{ offer }}
+
+        </h2>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Accepted -->
+
+  <div class="col-md-4 mb-4">
+
+    <div class="card shadow border-0">
+
+      <div class="card-body text-center">
+
+        <h5>Accepted</h5>
+
+        <h2 class="text-success">
+
+          {{ accepted }}
+
+        </h2>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Rejected -->
+
+  <div class="col-md-4 mb-4">
+
+    <div class="card shadow border-0">
+
+      <div class="card-body text-center">
+
+        <h5>Rejected</h5>
+
+        <h2 class="text-danger">
+
+          {{ rejected }}
+
+        </h2>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="text-center mt-4">
+
+  <a href="{% url 'job_list' %}" class="btn btn-primary btn-lg">
+
+    View All Applications
+
+  </a>
+
+</div>
+
+{% endblock %}
